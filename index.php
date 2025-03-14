@@ -43,6 +43,33 @@ require_once('./server.php')
     </header>
         
     <div class="container">
+         <!-- Modulo per aggiungere un nuovo disco -->
+         <h2 class="text-center mb-3 text-white">Aggiungi un Disco</h2>
+        <form action="server.php" method="POST" class="bg-white mb-5 rounded p-3">
+            <div class="mb-3">
+                <label for="titolo" class="form-label">Titolo</label>
+                <input type="text" class="form-control" id="titolo" name="titolo" required>
+            </div>
+            <div class="mb-3">
+                <label for="artista" class="form-label">Artista</label>
+                <input type="text" class="form-control" id="artista" name="artista" required>
+            </div>
+            <div class="mb-3">
+                <label for="anno" class="form-label">Anno</label>
+                <input type="number" class="form-control" id="anno" name="anno" min="1950" max="2025" required>
+            </div>
+            <div class="mb-3">
+                <label for="genere" class="form-label">Genere</label>
+                <input type="text" class="form-control" id="genere" name="genere" required>
+            </div>
+            <div class="mb-3">
+                <label for="cover" class="form-label">URL Copertina Disco</label>
+                <input type="text" class="form-control" id="cover" name="cover" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Aggiungi Disco</button>
+        </form>
+        
+        <!-- Card dischi -->
         <div class="row">
             <?php foreach ($dischi as $disco) { ?>
                 <div class="col-md-4 mb-4">
