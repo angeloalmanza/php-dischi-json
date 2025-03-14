@@ -1,0 +1,66 @@
+[
+    {
+      "titolo": "Dark Side of the Moon",
+      "artista": "Pink Floyd",
+      "cover": "./img/dark_side_of_the_moon.png",
+      "anno": 1973,
+      "genere": "Rock"
+    },
+    {
+      "titolo": "Thriller",
+      "artista": "Michael Jackson",
+      "cover": "./img/thriller.png",
+      "anno": 1982,
+      "genere": "Pop"
+    },
+    {
+      "titolo": "Back in Black",
+      "artista": "AC/DC",
+      "cover": "./img/back_in_black.png",
+      "anno": 1980,
+      "genere": "Hard Rock"
+    },
+    {
+      "titolo": "Abbey Road",
+      "artista": "The Beatles",
+      "cover": "./img/abbey_road.png",
+      "anno": 1969,
+      "genere": "Rock"
+    },
+    {
+      "titolo": "The Wall",
+      "artista": "Pink Floyd",
+      "cover": "./img/the_wall.png",
+      "anno": 1979,
+      "genere": "Rock"
+    },
+    {
+      "titolo": "Nevermind",
+      "artista": "Nirvana",
+      "cover": "./img/nevermind.png",
+      "anno": 1991,
+      "genere": "Grunge"
+    },
+    {
+      "titolo": "Hotel California",
+      "artista": "Eagles",
+      "cover": "./img/hotel_california.png",
+      "anno": 1976,
+      "genere": "Rock"
+    },
+    {
+      "titolo": "Born to Run",
+      "artista": "Bruce Springsteen",
+      "cover": "./img/born_to_run.png",
+      "anno": 1975,
+      "genere": "Rock"
+    },
+    {
+      "titolo": "A Night at the Opera",
+      "artista": "Queen",
+      "cover": "./img/a_night_at_the_opera.png",
+      "anno": 1975,
+      "genere": "Rock"
+    }
+  ]
+  
